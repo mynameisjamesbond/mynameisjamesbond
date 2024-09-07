@@ -4,12 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>mynameisjames.bond</title>
+    <style>
+        /* Ensure the video takes up the full viewport */
+        html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black; /* Optional: Black background for a cleaner look */
+        }
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to mynameisjames.bond</h1>
-    <div style="max-width: 640px; margin: auto;">
-        <!-- Vimeo Video Embed -->
-        <iframe src="https://player.vimeo.com/video/30476793" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-    </div>
+    <!-- Vimeo Video Embed -->
+    <iframe src="https://player.vimeo.com/video/30476793?autoplay=1&fullscreen=1" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </body>
 </html>
